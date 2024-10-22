@@ -1,4 +1,4 @@
-package BoyAndGirl;
+package BeautifulMatrix;
 
 import java.util.*;
 import java.io.*;
