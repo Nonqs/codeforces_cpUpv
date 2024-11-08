@@ -1,9 +1,9 @@
-package BeautifulMatrix;
+package Rating800;
 
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class BeautifulMatrix {
 
     public static void main(String[] args) throws Exception {
 

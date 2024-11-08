@@ -1,8 +1,8 @@
-package IsYourHorsehoeOnTheOtherHoof;
+package Rating800;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class IsYourHorsehoeOnTheOtherHoofç {
     
     public static void main(String[] args)throws Exception {
         

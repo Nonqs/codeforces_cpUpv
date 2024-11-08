@@ -1,8 +1,8 @@
-package Team;
+package Rating800;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Team {
     
     public static void main(String[] args) throws Exception {
         

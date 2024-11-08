@@ -1,9 +1,9 @@
-package AquaMoonAndTwoArrays;
+package Rating800;
 
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class AquaMoonAndTwoArrays {
     public static void main(String[] args) throws Exception {
 
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

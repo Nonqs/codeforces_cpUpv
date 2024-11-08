@@ -1,8 +1,8 @@
-package Quintomania;
+package Rating800;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Quintomania {
     public static void main(String[] args)throws Exception {
         
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

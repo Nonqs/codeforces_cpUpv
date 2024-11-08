@@ -1,14 +1,13 @@
-package GameWithBoard;
+package Rating800;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class Main {
+public class GameWithBoard {
     public static void main(String[] args) throws Exception {
 
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
