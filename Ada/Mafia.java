@@ -1,4 +1,4 @@
-package adaByron;
+package Ada;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
