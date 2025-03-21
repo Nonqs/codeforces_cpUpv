@@ -12,27 +12,12 @@ public class BoyOrGirl {
         StringTokenizer t = new StringTokenizer(s);
 
         String u = t.nextToken();
-        char[] c = new char[u.length()];
-        String user = "";
-
-        for (int i = 0; i < c.length; i++) {
-            if (i == 0) {
-                user = user + u.charAt(i);
-                c[i] = u.charAt(i);
-            }
-            for (int j = 0; j < i; j++) {
-                if (c[j] != u.charAt(i) && j == i - 1) {
-                    c[i] = u.charAt(i);
-                    user = user + u.charAt(i);
-                } else if (c[j] == u.charAt(i)) {
-
-                    break;
-                }
-            }
+        HashSet<Character> uniqueChars = new HashSet<>();
+        for (char c : u.toCharArray()) {
+            uniqueChars.add(c);
         }
-        System.out.println(Arrays.toString(c));
-        System.out.println(user);
-        if (user.length() < u.length() / 2)
+
+        if (uniqueChars.size() % 2 != 0)
             out.print("IGNORE HIM!");
         else
             out.print("CHAT WITH HER!");
