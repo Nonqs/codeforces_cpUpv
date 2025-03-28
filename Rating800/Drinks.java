@@ -5,20 +5,21 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-public class CalculatingFuction {
+public class Drinks {
     public static void main(String[] args) throws Exception {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out = new PrintWriter(System.out);
 
         StringTokenizer t = new StringTokenizer(in.readLine());
-        long n = Long.parseLong(t.nextToken());
-        if (n % 2 == 0) {
-            n = n / 2;
-        } else {
-            n = -(n + 1) / 2;
+        int n = Integer.parseInt(t.nextToken());
+        double sum = 0;
+
+        t = new StringTokenizer(in.readLine());
+        for (int i = 0; i < n; i++) {
+            sum += Integer.parseInt(t.nextToken());
         }
 
-        out.println(n);
+        out.println(sum / n);
         out.close();
     }
 }
